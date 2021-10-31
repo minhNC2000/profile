@@ -101,6 +101,11 @@ body {
     margin-bottom: 50px;
 }
 
+.contact-section img {
+    width: 100%;
+    height: 100%;
+}
+
 #contact-section .list-menu {
     text-decoration: none;
     font-weight: bold;
