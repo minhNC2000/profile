@@ -92,18 +92,16 @@ body {
 
 #hero-section .contact .button-message {
     margin-right: 30px;
-    background: linear-gradient(-45deg, #C80D06, #36509C);
-    animation: gradient 15s ease infinite;
+    background: repeating-linear-gradient(to right, red 0, #00f 50%, red 100%);
+    background-size: 200% auto;
+    background-position: 0 100%;
+    animation-timing-function: linear;
+    animation: gradient 2s infinite;
 }
 
 #contact-section {
     padding: 25px 15px;
     margin-bottom: 50px;
-}
-
-.contact-section img {
-    width: 100%;
-    height: 100%;
 }
 
 #contact-section .list-menu {
@@ -119,8 +117,9 @@ body {
 }
 
 #contact-section .list-menu img {
-    max-width: 35px;
-    margin-right: 15px;
+    width: 10%;
+    height: 10%;
+    margin-right: 30px;
     border-radius: 50%;
 }
 
