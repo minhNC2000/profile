@@ -42,7 +42,7 @@ body {
     border-radius: 50%;
     border: 3px solid #FFFF;
     background-color: #7a7a7a;
-    background-image: url("assets/images/ava.jpg");
+    background-image: url("../images/ava.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
