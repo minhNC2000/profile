@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Snyder";
+  src: url("../font/SnyderSpeedBrush.ttf");
+}
+@font-face {
+  font-family: "Lemonade";
+  src: url("/font/LemonadePeach.otf");
+}
+body {
+  background: linear-gradient(105deg, rgb(254, 6, 6) 0%, rgb(17, 203, 123) 45%, rgb(14, 20, 184) 100%);
+  background-repeat: repeat;
+  height: auto;
+  max-width: 100%;
+  -webkit-animation: gradient 10s ease infinite;
+          animation: gradient 10s ease infinite;
+  background-size: 300% 500%;
+}
+
+.container {
+  max-width: 750px !important;
+}
+
+.content {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 50px 1px;
+  top: 0;
+}
+
+#head-section {
+  margin-top: 80px;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  background-color: white;
+}
+#head-section .avatar {
+  position: absolute;
+  top: -60px;
+  width: 100%;
+  align-items: center;
+}
+#head-section .avatar .image {
+  background: url(../img/ava.jpg);
+  background-color: #7a7a7a;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+#head-section .name {
+  align-items: center;
+  padding-top: 60px;
+}
+#head-section .name h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+#head-section .name i {
+  color: #0c88ef;
+}
+#head-section .status p {
+  font-family: "Snyder", sans-serif;
+  font-size: 20px;
+  color: transparent;
+  width: 65%;
+  background: linear-gradient(120deg, #1cdce8, #bb77ed, #f34a62);
+  background-size: 1600px 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: gradient;
+          animation-name: gradient;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+#head-section .location i {
+  padding-right: 5px;
+  font-size: 20px;
+}
+#head-section .contact a {
+  text-decoration: none;
+  color: white;
+}
+#head-section .contact a:hover {
+  font-weight: bold;
+}
+#head-section .contact .contact-btn {
+  background-color: #3d81db;
+  margin: 0 25px 15px 25px;
+  border-radius: 5px;
+  width: 125px;
+  text-align: center;
+  padding: 5px 15px;
+}
+#head-section .mess-btn {
+  background-color: #3d81db;
+  margin: 0 25px 15px 25px;
+  border-radius: 5px;
+  width: 125px;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+#contact-section {
+  padding: 25px 15px;
+  margin-bottom: 50px;
+  background-color: white;
+  font-family: "Lemonade", sans-serif;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#contact-section a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #292929;
+  display: block;
+  margin-bottom: 15px;
+  padding: 15px 25px;
+  border-radius: 7px;
+  box-shadow: 0px 3px 10px #140f0f;
+  transition: 0.3s all ease-in-out;
+}
+#contact-section img {
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+}
+#contact-section p {
+  margin: auto;
+  font-size: 30px;
+}
+#contact-section .facebook:hover {
+  background-color: #28a5f2;
+  color: white;
+}
+#contact-section .instagram:hover {
+  background: linear-gradient(120deg, #e8851c, #e91e65, #ff06bc);
+  color: white;
+}
+#contact-section .zalo:hover {
+  background-color: #5196f1;
+  color: white;
+}
+#contact-section .tiktok:hover {
+  background-color: #221919;
+  color: white;
+}
+#contact-section #footer-section {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top: 1px solid #8d8d8d;
+  position: fixed;
+  padding: 5px 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  background: #ebf1ff;
+  text-align: center;
+}
+
+#footer-section {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top: 1px solid #8d8d8d;
+  position: fixed;
+  padding: 5px 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  background: #ebf1ff;
+  text-align: center;
+}
+#footer-section p {
+  display: inline;
+}/*# sourceMappingURL=styles.css.map */

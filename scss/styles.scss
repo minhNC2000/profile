@@ -1,0 +1,204 @@
+@use "color";
+@use "reset";
+@use "font";
+
+body {
+  background: linear-gradient(
+    105deg,
+    rgba(254, 6, 6, 1) 0%,
+    rgba(17, 203, 123, 1) 45%,
+    rgba(14, 20, 184, 1) 100%
+  );
+  background-repeat: repeat;
+  height: auto;
+  max-width: 100%;
+  animation: gradient 10s ease infinite;
+  background-size: 300% 500%;
+}
+.container {
+  max-width: 750px !important;
+}
+.content {
+  background: #ffff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 50px 1px;
+  top: 0;
+}
+#head-section {
+  margin-top: 80px;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  background-color: white;
+
+  .avatar {
+    position: absolute;
+    top: -60px;
+    width: 100%;
+    align-items: center;
+    .image {
+      background: url(../img/ava.jpg);
+      background-color: #7a7a7a;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #ffff;
+    }
+  }
+  .name {
+    align-items: center;
+    padding-top: 60px;
+    h1 {
+      font-size: 30px;
+      font-weight: bold;
+      padding-right: 5px;
+    }
+    i {
+      color: #0c88ef;
+    }
+  }
+  .status {
+    p {
+      font-family: "Snyder", sans-serif;
+      font-size: 20px;
+      color: transparent;
+      width: 65%;
+      background: linear-gradient(120deg, #1cdce8, #bb77ed, #f34a62);
+      background-size: 1600px 200px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation-duration: 5s;
+      animation-name: gradient;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0 50%;
+      }
+
+      50% {
+        background-position: 100% 0;
+      }
+    }
+  }
+  .location {
+    i {
+      padding-right: 5px;
+      font-size: 20px;
+    }
+  }
+  .contact {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+      font-weight: bold;
+    }
+    .contact-btn {
+      background-color: #3d81db;
+      margin: 0 25px 15px 25px;
+      border-radius: 5px;
+      width: 125px;
+      text-align: center;
+      padding: 5px 15px;
+    }
+  }
+  .mess-btn {
+    background-color: #3d81db;
+    margin: 0 25px 15px 25px;
+    border-radius: 5px;
+    width: 125px;
+    text-align: center;
+    padding: 5px 15px;
+  }
+}
+#contact-section {
+  padding: 25px 15px;
+  margin-bottom: 50px;
+  background-color: white;
+  font-family: "Lemonade", sans-serif;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #292929;
+    display: block;
+    margin-bottom: 15px;
+    padding: 15px 25px;
+    border-radius: 7px;
+    box-shadow: 0px 3px 10px #140f0f;
+    transition: 0.3s all ease-in-out;
+  }
+  img {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+  }
+  p {
+    margin: auto;
+    font-size: 30px;
+  }
+  .facebook {
+    &:hover {
+      background-color: #28a5f2;
+      color: white;
+    }
+  }
+  // ---------------- Facebook btn
+  .instagram {
+    &:hover {
+      background: linear-gradient(120deg, #e8851c, #e91e65, #ff06bc);
+      color: white;
+    }
+  }
+  // ---------------------------- Instagram btn
+  .zalo {
+    &:hover {
+      background-color: #5196f1;
+      color: white;
+    }
+  }
+  //--------------------------------------- Zalo btn
+  .tiktok {
+    &:hover {
+      background-color: #221919;
+      color: white;
+    }
+  }
+  //-------------------------------- Tiktok
+  #footer-section {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: 1px solid #8d8d8d;
+    position: fixed;
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    background: #ebf1ff;
+    text-align: center;
+  }
+}
+#footer-section {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top: 1px solid #8d8d8d;
+  position: fixed;
+  padding: 5px 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  background: #ebf1ff;
+  text-align: center;
+  p {
+    display: inline;
+  }
+}
