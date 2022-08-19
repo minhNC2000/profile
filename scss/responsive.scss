@@ -1,0 +1,98 @@
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 390px){
+    .container {
+        width: 350px !important;
+    }
+
+    #head-section {
+        .name {
+            h1{
+                font-size: 25px;
+            }
+        }
+        .status {
+           p{
+            width: 70%;
+            font-size: 13px;
+           }
+        }
+        .location {
+            i {
+                font-size: 15px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .contact
+        {
+            .contact-btn {
+                width: 100px;
+            }
+            .mess-btn {
+                width: 100px;
+            }
+        }
+    }
+    #contact-section {
+        p {
+            font-size: 15px;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .container {
+        width: 650px !important;
+    }
+
+    #head-section {
+        .name {
+            h1{
+                font-size: 27px;
+            }
+        }
+        .status {
+           p{
+            width: 70%;
+            font-size: 20px;
+           }
+        }
+        .location {
+            i {
+                font-size: 20px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        .contact
+        {
+            .contact-btn {
+                width: 130px;
+            }
+            .mess-btn {
+                width: 130px;
+            }
+        }
+    }
+    #contact-section {
+        p {
+            font-size: 20px;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (min-width: 1024px){
+  
+}
