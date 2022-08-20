@@ -1,67 +1,73 @@
 
-/*Iphone(480 x 640)*/
-@media screen and (max-width: 390px){
+@media screen and (min-width: 1024px){
     .container {
-        width: 350px !important;
+        width: 960px !important;
+        
     }
 
     #head-section {
         .name {
             h1{
-                font-size: 25px;
+                font-size: 35px;
             }
         }
         .status {
            p{
-            width: 70%;
-            font-size: 13px;
+            width: 90%;
+            font-size: 25px;
            }
         }
         .location {
             i {
-                font-size: 15px;
+                font-size: 20px;
             }
             p {
-                font-size: 14px;
+                font-size: 25px;
             }
         }
         .contact
         {
             .contact-btn {
-                width: 100px;
+                width: 150px;
+                padding: 10px 20px;
+                font-size: 20px;
             }
             .mess-btn {
-                width: 100px;
+                width: 150px;
+                padding: 10px 20px;
+                font-size: 20px;
             }
         }
     }
     #contact-section {
         p {
-            font-size: 15px;
+            font-size: 25px;
         }
         img {
-            width: 40px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
         }
     }
 }
 
-/*Ipad dọc(768 x 1024)*/
-@media screen and (max-width: 768px){
+
+
+@media screen and (min-width: 769px) and (max-width:1024px){
     .container {
-        width: 650px !important;
+        width: 740px !important;
+        
     }
 
     #head-section {
         .name {
             h1{
-                font-size: 27px;
+                font-size: 35px;
             }
         }
         .status {
            p{
-            width: 70%;
-            font-size: 20px;
+            width: 90%;
+            font-size: 27px;
            }
         }
         .location {
@@ -92,7 +98,52 @@
         }
     }
 }
-/*Ipad ngang(1024 x 768)*/
-@media screen and (min-width: 1024px){
-  
+
+
+
+@media screen and (min-width: 576px) and (max-width: 768px){ 
+    .container {
+        width: 520px !important;
+        
+    }
+
+    #head-section {
+        .name {
+            h1{
+                font-size: 25px;
+            }
+        }
+        .status {
+           p{
+            width: 90%;
+            font-size: 20px;
+           }
+        }
+        .location {
+            i {
+                font-size: 15px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .contact
+        {
+            .contact-btn {
+                width: 100px;
+            }
+            .mess-btn {
+                width: 100px;
+            }
+        }
+    }
+    #contact-section {
+        p {
+            font-size: 20px;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
 }
