@@ -1,149 +1,186 @@
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px !important;
+    transition: width 2s;
+  }
 
-@media screen and (min-width: 1024px){
-    .container {
-        width: 960px !important;
-        transition: width 2s;
+  #head-section {
+    .name {
+      h1 {
+        font-size: 35px;
+      }
     }
-
-    #head-section {
-        .name {
-            h1{
-                font-size: 35px;
-            }
-        }
-        .status {
-           p{
-            width: 90%;
-            font-size: 25px;
-           }
-        }
-        .location {
-            i {
-                font-size: 20px;
-            }
-            p {
-                font-size: 25px;
-            }
-        }
-        .contact
-        {
-            .contact-btn {
-                width: 150px;
-                padding: 10px 20px;
-                font-size: 20px;
-            }
-            .mess-btn {
-                width: 150px;
-                padding: 10px 20px;
-                font-size: 20px;
-            }
-        }
+    .status {
+      p {
+        width: 90%;
+        font-size: 25px;
+      }
     }
-    #contact-section {
-        p {
-            font-size: 25px;
-        }
-        img {
-            width: 50px;
-            height: 50px;
-        }
+    .location {
+      i {
+        font-size: 20px;
+      }
+      p {
+        font-size: 25px;
+      }
     }
+    .contact {
+      .contact-btn {
+        width: 150px;
+        padding: 10px 20px;
+        font-size: 20px;
+      }
+      .mess-btn {
+        width: 150px;
+        padding: 10px 20px;
+        font-size: 20px;
+      }
+    }
+  }
+  #contact-section {
+    p {
+      font-size: 25px;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 740px !important;
+    transition: width 2s;
+  }
 
-
-@media screen and (min-width: 769px) and (max-width:1024px){
-    .container {
-        width: 740px !important;
-        transition: width 2s;
+  #head-section {
+    .name {
+      h1 {
+        font-size: 35px;
+      }
     }
-
-    #head-section {
-        .name {
-            h1{
-                font-size: 35px;
-            }
-        }
-        .status {
-           p{
-            width: 90%;
-            font-size: 27px;
-           }
-        }
-        .location {
-            i {
-                font-size: 20px;
-            }
-            p {
-                font-size: 20px;
-            }
-        }
-        .contact
-        {
-            .contact-btn {
-                width: 130px;
-            }
-            .mess-btn {
-                width: 130px;
-            }
-        }
+    .status {
+      p {
+        width: 90%;
+        font-size: 27px;
+      }
     }
-    #contact-section {
-        p {
-            font-size: 20px;
-        }
-        img {
-            width: 50px;
-            height: 50px;
-        }
+    .location {
+      i {
+        font-size: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
     }
+    .contact {
+      .contact-btn {
+        width: 130px;
+      }
+      .mess-btn {
+        width: 130px;
+      }
+    }
+  }
+  #contact-section {
+    p {
+      font-size: 20px;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
 
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    width: 520px !important;
+    transition: width 2s;
+  }
 
+  #head-section {
+    .name {
+      h1 {
+        font-size: 25px;
+      }
+    }
+    .status {
+      p {
+        width: 90%;
+        font-size: 20px;
+      }
+    }
+    .location {
+      i {
+        font-size: 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .contact {
+      .contact-btn {
+        width: 100px;
+      }
+      .mess-btn {
+        width: 100px;
+      }
+    }
+  }
+  #contact-section {
+    p {
+      font-size: 20px;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 450px !important;
+    transition: width 2s;
+  }
 
-@media screen and (min-width: 576px) and (max-width: 768px){ 
-    .container {
-        width: 520px !important;
-        transition: width 2s;
+  #head-section {
+    .name {
+      h1 {
+        font-size: 25px;
+      }
     }
-
-    #head-section {
-        .name {
-            h1{
-                font-size: 25px;
-            }
-        }
-        .status {
-           p{
-            width: 90%;
-            font-size: 20px;
-           }
-        }
-        .location {
-            i {
-                font-size: 15px;
-            }
-            p {
-                font-size: 14px;
-            }
-        }
-        .contact
-        {
-            .contact-btn {
-                width: 100px;
-            }
-            .mess-btn {
-                width: 100px;
-            }
-        }
+    .status {
+      p {
+        width: 90%;
+        font-size: 17px;
+      }
     }
-    #contact-section {
-        p {
-            font-size: 20px;
-        }
-        img {
-            width: 40px;
-            height: 40px;
-        }
+    .location {
+      i {
+        font-size: 15px;
+      }
+      p {
+        font-size: 18px;
+      }
     }
+    .contact {
+      .contact-btn {
+        width: 130px;
+      }
+      .mess-btn {
+        width: 130px;
+      }
+    }
+  }
+  #contact-section {
+    p {
+      font-size: 16px;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }
