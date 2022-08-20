@@ -2,7 +2,7 @@
 @media screen and (min-width: 1024px){
     .container {
         width: 960px !important;
-        
+        transition: width 2s;
     }
 
     #head-section {
@@ -55,7 +55,7 @@
 @media screen and (min-width: 769px) and (max-width:1024px){
     .container {
         width: 740px !important;
-        
+        transition: width 2s;
     }
 
     #head-section {
@@ -104,7 +104,7 @@
 @media screen and (min-width: 576px) and (max-width: 768px){ 
     .container {
         width: 520px !important;
-        
+        transition: width 2s;
     }
 
     #head-section {
