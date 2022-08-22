@@ -22,10 +22,6 @@ body {
   background-size: 300% 500%;
 }
 
-.container {
-  max-width: 1000px !important;
-}
-
 .content {
   background: white;
   border-radius: 15px;
