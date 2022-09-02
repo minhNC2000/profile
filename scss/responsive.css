@@ -1,3 +1,7 @@
+* {
+  transition: all 1.5s;
+}
+
 @media screen and (min-width: 1024px) {
   #head-section .name h1 {
     font-size: 35px;
