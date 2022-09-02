@@ -1,7 +1,7 @@
-*{
+* {
   transition: all 1.5s;
 }
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   #head-section {
     .name {
       h1 {
@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) and (orientation: portrait) {
   #head-section {
     .name {
       h1 {
@@ -87,7 +87,7 @@
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (max-width: 767px) and (orientation: portrait) {
   #head-section {
     .name {
       h1 {
@@ -120,46 +120,6 @@
   #contact-section {
     p {
       font-size: 20px;
-    }
-    img {
-      width: 40px;
-      height: 40px;
-    }
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  #head-section {
-    .name {
-      h1 {
-        font-size: 25px;
-      }
-    }
-    .status {
-      p {
-        width: 90%;
-        font-size: 17px;
-      }
-    }
-    .location {
-      i {
-        font-size: 15px;
-      }
-      p {
-        font-size: 18px;
-      }
-    }
-    .contact {
-      .contact-btn {
-        width: 130px;
-      }
-      .mess-btn {
-        width: 130px;
-      }
-    }
-  }
-  #contact-section {
-    p {
-      font-size: 16px;
     }
     img {
       width: 40px;
