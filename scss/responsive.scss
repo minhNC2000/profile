@@ -1,6 +1,3 @@
-* {
-  transition: all 1.5s;
-}
 @media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   #head-section {
     .name {
@@ -20,18 +17,6 @@
       }
       p {
         font-size: 25px;
-      }
-    }
-    .contact {
-      .contact-btn {
-        width: 150px;
-        padding: 10px 20px;
-        font-size: 20px;
-      }
-      .mess-btn {
-        width: 150px;
-        padding: 10px 20px;
-        font-size: 20px;
       }
     }
   }
@@ -67,14 +52,6 @@
         font-size: 20px;
       }
     }
-    .contact {
-      .contact-btn {
-        width: 130px;
-      }
-      .mess-btn {
-        width: 130px;
-      }
-    }
   }
   #contact-section {
     p {
@@ -106,14 +83,6 @@
       }
       p {
         font-size: 14px;
-      }
-    }
-    .contact {
-      .contact-btn {
-        width: 100px;
-      }
-      .mess-btn {
-        width: 100px;
       }
     }
   }

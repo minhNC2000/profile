@@ -108,24 +108,21 @@ body {
   text-decoration: none;
   color: white;
 }
-#head-section .contact a:hover {
-  font-weight: bold;
-}
 #head-section .contact .contact-btn {
   background-color: #3d81db;
   margin: 0 25px 15px 25px;
   border-radius: 5px;
-  width: 125px;
-  text-align: center;
-  padding: 5px 15px;
+  padding: 10px 30px;
+  outline: none;
+  border: none;
 }
 #head-section .mess-btn {
   background-color: #3d81db;
   margin: 0 25px 15px 25px;
   border-radius: 5px;
-  width: 125px;
-  text-align: center;
-  padding: 5px 15px;
+  padding: 10px 30px;
+  outline: none;
+  border: none;
 }
 
 #contact-section {
@@ -145,7 +142,6 @@ body {
   padding: 15px 25px;
   border-radius: 7px;
   box-shadow: 0px 3px 10px #140f0f;
-  transition: 0.3s all ease-in-out;
 }
 #contact-section img {
   width: 60px;

@@ -1,8 +1,4 @@
-* {
-  transition: all 1.5s;
-}
-
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   #head-section .name h1 {
     font-size: 35px;
   }
@@ -16,16 +12,6 @@
   #head-section .location p {
     font-size: 25px;
   }
-  #head-section .contact .contact-btn {
-    width: 150px;
-    padding: 10px 20px;
-    font-size: 20px;
-  }
-  #head-section .contact .mess-btn {
-    width: 150px;
-    padding: 10px 20px;
-    font-size: 20px;
-  }
   #contact-section p {
     font-size: 25px;
   }
@@ -34,7 +20,7 @@
     height: 50px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) and (orientation: portrait) {
   #head-section .name h1 {
     font-size: 35px;
   }
@@ -48,12 +34,6 @@
   #head-section .location p {
     font-size: 20px;
   }
-  #head-section .contact .contact-btn {
-    width: 130px;
-  }
-  #head-section .contact .mess-btn {
-    width: 130px;
-  }
   #contact-section p {
     font-size: 20px;
   }
@@ -62,7 +42,7 @@
     height: 50px;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (max-width: 767px) and (orientation: portrait) {
   #head-section .name h1 {
     font-size: 25px;
   }
@@ -76,42 +56,8 @@
   #head-section .location p {
     font-size: 14px;
   }
-  #head-section .contact .contact-btn {
-    width: 100px;
-  }
-  #head-section .contact .mess-btn {
-    width: 100px;
-  }
   #contact-section p {
     font-size: 20px;
-  }
-  #contact-section img {
-    width: 40px;
-    height: 40px;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  #head-section .name h1 {
-    font-size: 25px;
-  }
-  #head-section .status p {
-    width: 90%;
-    font-size: 17px;
-  }
-  #head-section .location i {
-    font-size: 15px;
-  }
-  #head-section .location p {
-    font-size: 18px;
-  }
-  #head-section .contact .contact-btn {
-    width: 130px;
-  }
-  #head-section .contact .mess-btn {
-    width: 130px;
-  }
-  #contact-section p {
-    font-size: 16px;
   }
   #contact-section img {
     width: 40px;
