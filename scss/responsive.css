@@ -4,16 +4,16 @@
   }
   #head-section .status p {
     width: 90%;
-    font-size: 25px;
+    font-size: 2.1rem;
   }
   #head-section .location i {
     font-size: 20px;
   }
   #head-section .location p {
-    font-size: 25px;
+    font-size: 1.6rem;
   }
   #contact-section p {
-    font-size: 25px;
+    font-size: 1.6rem;
   }
   #contact-section img {
     width: 50px;
@@ -35,7 +35,7 @@
     font-size: 20px;
   }
   #contact-section p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   #contact-section img {
     width: 50px;
@@ -48,16 +48,13 @@
   }
   #head-section .status p {
     width: 90%;
-    font-size: 20px;
+    font-size: 1rem;
   }
   #head-section .location i {
     font-size: 15px;
   }
   #head-section .location p {
     font-size: 14px;
-  }
-  #contact-section p {
-    font-size: 20px;
   }
   #contact-section img {
     width: 40px;

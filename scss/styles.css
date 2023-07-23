@@ -10,16 +10,17 @@
 }
 @font-face {
   font-family: "Lemonade";
-  src: url("/font/LemonadePeach.otf");
+  src: url("../font/LemonadePeach.otf");
 }
 body {
-  background: linear-gradient(105deg, rgb(254, 6, 6) 0%, rgb(17, 203, 123) 45%, rgb(14, 20, 184) 100%);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(120deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
   background-repeat: repeat;
   height: auto;
   max-width: 100%;
-  -webkit-animation: gradient 10s ease infinite;
-          animation: gradient 10s ease infinite;
+  animation: gradient 5s ease infinite;
   background-size: 300% 500%;
+  font-size: 1rem;
 }
 
 .content {
@@ -68,29 +69,17 @@ body {
 }
 #head-section .status p {
   font-family: "Snyder", sans-serif;
-  font-size: 20px;
+  font-size: 1.4rem;
   color: transparent;
   width: 65%;
   background: linear-gradient(120deg, #1cdce8, #bb77ed, #f34a62);
   background-size: 1600px 200px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-name: gradient;
-          animation-name: gradient;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 0;
-  }
+  animation-duration: 5s;
+  animation-name: gradient;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 @keyframes gradient {
   0% {
@@ -150,7 +139,8 @@ body {
 }
 #contact-section p {
   margin: auto;
-  font-size: 30px;
+  font-size: 1.9rem;
+  text-transform: capitalize;
 }
 #contact-section .facebook:hover {
   background-color: #28a5f2;

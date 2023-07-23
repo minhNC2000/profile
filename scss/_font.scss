@@ -1,10 +1,10 @@
+$path-font: "../font";
 @font-face {
-    font-family: "Snyder";
-    src: url("../font/SnyderSpeedBrush.ttf");
-  }
+  font-family: "Snyder";
+  src: url($path-font + "/SnyderSpeedBrush.ttf");
+}
 
-  @font-face {
-    font-family: "Lemonade";
-    src: url("/font/LemonadePeach.otf");
-  }
-  
+@font-face {
+  font-family: "Lemonade";
+  src: url($path-font + "/LemonadePeach.otf");
+}

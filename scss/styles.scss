@@ -1,19 +1,21 @@
-@use "color";
-@use "reset";
-@use "font";
+@import "color";
+@import "reset";
+@import "font";
 
 body {
+  background: rgb(131, 58, 180);
   background: linear-gradient(
-    105deg,
-    rgba(254, 6, 6, 1) 0%,
-    rgba(17, 203, 123, 1) 45%,
-    rgba(14, 20, 184, 1) 100%
+    120deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
   );
   background-repeat: repeat;
   height: auto;
   max-width: 100%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 5s ease infinite;
   background-size: 300% 500%;
+  font-size: 1rem;
 }
 
 .content {
@@ -62,7 +64,7 @@ body {
   .status {
     p {
       font-family: "Snyder", sans-serif;
-      font-size: 20px;
+      font-size: 1.4rem;
       color: transparent;
       width: 65%;
       background: linear-gradient(120deg, #1cdce8, #bb77ed, #f34a62);
@@ -93,7 +95,7 @@ body {
   .contact {
     a {
       text-decoration: none;
-      color: white;
+      color: $light-color;
     }
 
     .contact-btn {
@@ -139,33 +141,34 @@ body {
   }
   p {
     margin: auto;
-    font-size: 30px;
+    font-size: 1.9rem;
+    text-transform: capitalize;
   }
   .facebook {
     &:hover {
       background-color: #28a5f2;
-      color: white;
+      color: $light-color;
     }
   }
   // ---------------- Facebook btn
   .instagram {
     &:hover {
       background: linear-gradient(120deg, #e8851c, #e91e65, #ff06bc);
-      color: white;
+      color: $light-color;
     }
   }
   // ---------------------------- Instagram btn
   .zalo {
     &:hover {
       background-color: #5196f1;
-      color: white;
+      color: $light-color;
     }
   }
   //--------------------------------------- Zalo btn
   .tiktok {
     &:hover {
       background-color: #221919;
-      color: white;
+      color: $light-color;
     }
   }
   //-------------------------------- Tiktok
